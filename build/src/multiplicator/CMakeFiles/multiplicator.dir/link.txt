@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libmultiplicator.a  CMakeFiles/multiplicator.dir/multiplicator.cpp.o
-/usr/bin/ranlib ../../../lib/libmultiplicator.a

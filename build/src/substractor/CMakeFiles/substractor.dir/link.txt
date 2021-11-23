@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libsubstractor.a  CMakeFiles/substractor.dir/substractor.cpp.o
-/usr/bin/ranlib ../../../lib/libsubstractor.a
