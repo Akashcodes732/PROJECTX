@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akash/CPP/PROJECTX/src/multiplicator/multiplicator.cpp
+iostream
+-
+multiplicator.h
+/home/akash/CPP/PROJECTX/src/multiplicator/multiplicator.h
+
+/home/akash/CPP/PROJECTX/src/multiplicator/multiplicator.h
+
