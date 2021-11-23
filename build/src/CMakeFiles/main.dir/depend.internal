@@ -3,6 +3,7 @@
 
 src/CMakeFiles/main.dir/main.cpp.o
  ../src/adder/adder.h
+ ../src/divider/divider.h
  ../src/multiplicator/multiplicator.h
  ../src/substractor/substractor.h
  /home/akash/CPP/PROJECTX/src/main.cpp

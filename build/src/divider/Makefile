@@ -121,6 +121,48 @@ depend:
 	cd /home/akash/CPP/PROJECTX/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/divider/CMakeFiles/divider.dir/rule:
+	cd /home/akash/CPP/PROJECTX/build && $(MAKE) -f CMakeFiles/Makefile2 src/divider/CMakeFiles/divider.dir/rule
+.PHONY : src/divider/CMakeFiles/divider.dir/rule
+
+# Convenience name for target.
+divider: src/divider/CMakeFiles/divider.dir/rule
+
+.PHONY : divider
+
+# fast build rule for target.
+divider/fast:
+	cd /home/akash/CPP/PROJECTX/build && $(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/build
+.PHONY : divider/fast
+
+divider.o: divider.cpp.o
+
+.PHONY : divider.o
+
+# target to build an object file
+divider.cpp.o:
+	cd /home/akash/CPP/PROJECTX/build && $(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/divider.cpp.o
+.PHONY : divider.cpp.o
+
+divider.i: divider.cpp.i
+
+.PHONY : divider.i
+
+# target to preprocess a source file
+divider.cpp.i:
+	cd /home/akash/CPP/PROJECTX/build && $(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/divider.cpp.i
+.PHONY : divider.cpp.i
+
+divider.s: divider.cpp.s
+
+.PHONY : divider.s
+
+# target to generate assembly for a file
+divider.cpp.s:
+	cd /home/akash/CPP/PROJECTX/build && $(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/divider.cpp.s
+.PHONY : divider.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -130,6 +172,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... divider"
+	@echo "... divider.o"
+	@echo "... divider.i"
+	@echo "... divider.s"
 .PHONY : help
 
 

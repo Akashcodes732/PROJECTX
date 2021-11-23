@@ -121,7 +121,7 @@ src/adder/clean: src/adder/CMakeFiles/adder.dir/clean
 # Directory level rules for directory src/divider
 
 # Recursive "all" directory target.
-src/divider/all:
+src/divider/all: src/divider/CMakeFiles/divider.dir/all
 
 .PHONY : src/divider/all
 
@@ -131,7 +131,7 @@ src/divider/preinstall:
 .PHONY : src/divider/preinstall
 
 # Recursive "clean" directory target.
-src/divider/clean:
+src/divider/clean: src/divider/CMakeFiles/divider.dir/clean
 
 .PHONY : src/divider/clean
 
@@ -195,15 +195,16 @@ tests/clean:
 # All Build rule for target.
 src/CMakeFiles/main.dir/all: src/adder/CMakeFiles/adder.dir/all
 src/CMakeFiles/main.dir/all: src/substractor/CMakeFiles/substractor.dir/all
+src/CMakeFiles/main.dir/all: src/divider/CMakeFiles/divider.dir/all
 src/CMakeFiles/main.dir/all: src/multiplicator/CMakeFiles/multiplicator.dir/all
 	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/depend
 	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash/CPP/PROJECTX/build/CMakeFiles --progress-num=3,4 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash/CPP/PROJECTX/build/CMakeFiles --progress-num=5,6 "Built target main"
 .PHONY : src/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/akash/CPP/PROJECTX/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/akash/CPP/PROJECTX/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/akash/CPP/PROJECTX/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/main.dir/rule
@@ -252,7 +253,7 @@ src/adder/CMakeFiles/adder.dir/clean:
 src/substractor/CMakeFiles/substractor.dir/all:
 	$(MAKE) -f src/substractor/CMakeFiles/substractor.dir/build.make src/substractor/CMakeFiles/substractor.dir/depend
 	$(MAKE) -f src/substractor/CMakeFiles/substractor.dir/build.make src/substractor/CMakeFiles/substractor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash/CPP/PROJECTX/build/CMakeFiles --progress-num=7,8 "Built target substractor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash/CPP/PROJECTX/build/CMakeFiles --progress-num=9,10 "Built target substractor"
 .PHONY : src/substractor/CMakeFiles/substractor.dir/all
 
 # Build rule for subdir invocation for target.
@@ -273,13 +274,40 @@ src/substractor/CMakeFiles/substractor.dir/clean:
 .PHONY : src/substractor/CMakeFiles/substractor.dir/clean
 
 #=============================================================================
+# Target rules for target src/divider/CMakeFiles/divider.dir
+
+# All Build rule for target.
+src/divider/CMakeFiles/divider.dir/all:
+	$(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/depend
+	$(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash/CPP/PROJECTX/build/CMakeFiles --progress-num=3,4 "Built target divider"
+.PHONY : src/divider/CMakeFiles/divider.dir/all
+
+# Build rule for subdir invocation for target.
+src/divider/CMakeFiles/divider.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/akash/CPP/PROJECTX/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/divider/CMakeFiles/divider.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/akash/CPP/PROJECTX/build/CMakeFiles 0
+.PHONY : src/divider/CMakeFiles/divider.dir/rule
+
+# Convenience name for target.
+divider: src/divider/CMakeFiles/divider.dir/rule
+
+.PHONY : divider
+
+# clean rule for target.
+src/divider/CMakeFiles/divider.dir/clean:
+	$(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/clean
+.PHONY : src/divider/CMakeFiles/divider.dir/clean
+
+#=============================================================================
 # Target rules for target src/multiplicator/CMakeFiles/multiplicator.dir
 
 # All Build rule for target.
 src/multiplicator/CMakeFiles/multiplicator.dir/all:
 	$(MAKE) -f src/multiplicator/CMakeFiles/multiplicator.dir/build.make src/multiplicator/CMakeFiles/multiplicator.dir/depend
 	$(MAKE) -f src/multiplicator/CMakeFiles/multiplicator.dir/build.make src/multiplicator/CMakeFiles/multiplicator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash/CPP/PROJECTX/build/CMakeFiles --progress-num=5,6 "Built target multiplicator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash/CPP/PROJECTX/build/CMakeFiles --progress-num=7,8 "Built target multiplicator"
 .PHONY : src/multiplicator/CMakeFiles/multiplicator.dir/all
 
 # Build rule for subdir invocation for target.

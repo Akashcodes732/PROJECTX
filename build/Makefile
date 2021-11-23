@@ -161,6 +161,19 @@ substractor/fast:
 .PHONY : substractor/fast
 
 #=============================================================================
+# Target rules for targets named divider
+
+# Build rule for target.
+divider: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 divider
+.PHONY : divider
+
+# fast build rule for target.
+divider/fast:
+	$(MAKE) -f src/divider/CMakeFiles/divider.dir/build.make src/divider/CMakeFiles/divider.dir/build
+.PHONY : divider/fast
+
+#=============================================================================
 # Target rules for targets named multiplicator
 
 # Build rule for target.
@@ -185,6 +198,7 @@ help:
 	@echo "... main"
 	@echo "... adder"
 	@echo "... substractor"
+	@echo "... divider"
 	@echo "... multiplicator"
 .PHONY : help
 

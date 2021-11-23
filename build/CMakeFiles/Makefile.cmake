@@ -60,5 +60,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/main.dir/DependInfo.cmake"
   "src/adder/CMakeFiles/adder.dir/DependInfo.cmake"
   "src/substractor/CMakeFiles/substractor.dir/DependInfo.cmake"
+  "src/divider/CMakeFiles/divider.dir/DependInfo.cmake"
   "src/multiplicator/CMakeFiles/multiplicator.dir/DependInfo.cmake"
   )

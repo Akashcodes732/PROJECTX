@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  ../../lib/libadder.a ../../lib/libsubstractor.a ../../lib/libmultiplicator.a 
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  ../../lib/libadder.a ../../lib/libsubstractor.a ../../lib/libmultiplicator.a ../../lib/libdivider.a 

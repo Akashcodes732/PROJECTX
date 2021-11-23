@@ -22,6 +22,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/akash/CPP/PROJECTX/build/src/adder/CMakeFiles/adder.dir/DependInfo.cmake"
   "/home/akash/CPP/PROJECTX/build/src/substractor/CMakeFiles/substractor.dir/DependInfo.cmake"
   "/home/akash/CPP/PROJECTX/build/src/multiplicator/CMakeFiles/multiplicator.dir/DependInfo.cmake"
+  "/home/akash/CPP/PROJECTX/build/src/divider/CMakeFiles/divider.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
